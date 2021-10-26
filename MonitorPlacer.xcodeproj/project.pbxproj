@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1127BA272ED60000746CAA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DC1127B9272ED60000746CAA /* Realm */; };
+		DC1127BC272ED60000746CAA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DC1127BB272ED60000746CAA /* RealmSwift */; };
+		DC1127C1272ED74000746CAA /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1127C0272ED74000746CAA /* Setting.swift */; };
+		DC1127C3272ED8A800746CAA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1127C2272ED8A800746CAA /* Configuration.swift */; };
+		DC1127C7272ED95900746CAA /* CurrentSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1127C6272ED95900746CAA /* CurrentSetup.swift */; };
+		DC7C7F7027288EC10070B877 /* MonitorPlacerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C7F6F27288EC10070B877 /* MonitorPlacerApp.swift */; };
+		DC7C7F7427288EC20070B877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C7F7327288EC20070B877 /* Assets.xcassets */; };
+		DC7C7F7727288EC20070B877 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C7F7627288EC20070B877 /* Preview Assets.xcassets */; };
+		DC7C7F832728937A0070B877 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C7F822728937A0070B877 /* StatusBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC1127C0272ED74000746CAA /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		DC1127C2272ED8A800746CAA /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		DC1127C6272ED95900746CAA /* CurrentSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSetup.swift; sourceTree = "<group>"; };
+		DC7C7F6C27288EC10070B877 /* MonitorPlacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonitorPlacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7C7F6F27288EC10070B877 /* MonitorPlacerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorPlacerApp.swift; sourceTree = "<group>"; };
+		DC7C7F7327288EC20070B877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7C7F7627288EC20070B877 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC7C7F7827288EC20070B877 /* MonitorPlacer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonitorPlacer.entitlements; sourceTree = "<group>"; };
+		DC7C7F822728937A0070B877 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		DC7C7F842728A34C0070B877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7C7F6927288EC10070B877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1127BC272ED60000746CAA /* RealmSwift in Frameworks */,
+				DC1127BA272ED60000746CAA /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1127BD272ED61E00746CAA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DC1127C0272ED74000746CAA /* Setting.swift */,
+				DC1127C2272ED8A800746CAA /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DC1127C5272ED92E00746CAA /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				DC1127C6272ED95900746CAA /* CurrentSetup.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		DC7C7F6327288EC00070B877 = {
+			isa = PBXGroup;
+			children = (
+				DC7C7F6E27288EC10070B877 /* MonitorPlacer */,
+				DC7C7F6D27288EC10070B877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7C7F6D27288EC10070B877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C7F6C27288EC10070B877 /* MonitorPlacer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7C7F6E27288EC10070B877 /* MonitorPlacer */ = {
+			isa = PBXGroup;
+			children = (
+				DC1127C5272ED92E00746CAA /* Information */,
+				DC1127BD272ED61E00746CAA /* Configuration */,
+				DC7C7F842728A34C0070B877 /* Info.plist */,
+				DC7C7F6F27288EC10070B877 /* MonitorPlacerApp.swift */,
+				DC7C7F7327288EC20070B877 /* Assets.xcassets */,
+				DC7C7F7827288EC20070B877 /* MonitorPlacer.entitlements */,
+				DC7C7F7527288EC20070B877 /* Preview Content */,
+				DC7C7F822728937A0070B877 /* StatusBarController.swift */,
+			);
+			path = MonitorPlacer;
+			sourceTree = "<group>";
+		};
+		DC7C7F7527288EC20070B877 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C7F7627288EC20070B877 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7C7F6B27288EC10070B877 /* MonitorPlacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7C7F7B27288EC20070B877 /* Build configuration list for PBXNativeTarget "MonitorPlacer" */;
+			buildPhases = (
+				DC7C7F6827288EC10070B877 /* Sources */,
+				DC7C7F6927288EC10070B877 /* Frameworks */,
+				DC7C7F6A27288EC10070B877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonitorPlacer;
+			packageProductDependencies = (
+				DC1127B9272ED60000746CAA /* Realm */,
+				DC1127BB272ED60000746CAA /* RealmSwift */,
+			);
+			productName = MonitorPlacer;
+			productReference = DC7C7F6C27288EC10070B877 /* MonitorPlacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7C7F6427288EC00070B877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DC7C7F6B27288EC10070B877 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = DC7C7F6727288EC00070B877 /* Build configuration list for PBXProject "MonitorPlacer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7C7F6327288EC00070B877;
+			packageReferences = (
+				DC1127B8272ED60000746CAA /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = DC7C7F6D27288EC10070B877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7C7F6B27288EC10070B877 /* MonitorPlacer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7C7F6A27288EC10070B877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7C7F7727288EC20070B877 /* Preview Assets.xcassets in Resources */,
+				DC7C7F7427288EC20070B877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7C7F6827288EC10070B877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7C7F832728937A0070B877 /* StatusBarController.swift in Sources */,
+				DC1127C7272ED95900746CAA /* CurrentSetup.swift in Sources */,
+				DC1127C3272ED8A800746CAA /* Configuration.swift in Sources */,
+				DC1127C1272ED74000746CAA /* Setting.swift in Sources */,
+				DC7C7F7027288EC10070B877 /* MonitorPlacerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC7C7F7927288EC20070B877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC7C7F7A27288EC20070B877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC7C7F7C27288EC20070B877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MonitorPlacer/MonitorPlacer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonitorPlacer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonitorPlacer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.gmx.uwejaeger.MonitorPlacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC7C7F7D27288EC20070B877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MonitorPlacer/MonitorPlacer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonitorPlacer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonitorPlacer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.gmx.uwejaeger.MonitorPlacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7C7F6727288EC00070B877 /* Build configuration list for PBXProject "MonitorPlacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7C7F7927288EC20070B877 /* Debug */,
+				DC7C7F7A27288EC20070B877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7C7F7B27288EC20070B877 /* Build configuration list for PBXNativeTarget "MonitorPlacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7C7F7C27288EC20070B877 /* Debug */,
+				DC7C7F7D27288EC20070B877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC1127B8272ED60000746CAA /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC1127B9272ED60000746CAA /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC1127B8272ED60000746CAA /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		DC1127BB272ED60000746CAA /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC1127B8272ED60000746CAA /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC7C7F6427288EC00070B877 /* Project object */;
+}
